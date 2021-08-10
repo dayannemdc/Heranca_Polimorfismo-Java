@@ -5,7 +5,6 @@ public class Cachorro extends Animal {
 	String raca;
 	String cor;
 	String porte;
-
 	
 	public Cachorro (String nome, int idade, boolean emiteSom, boolean corre, String raca, String cor, String porte) {
 		super(nome,idade,emiteSom,corre);
@@ -18,7 +17,9 @@ public class Cachorro extends Animal {
 		System.out.println("\nAnimal: "+getNome()+"\nIdade: "+getIdade()+"\nEmite som? "+isEmiteSom()+"\nCorre? "+isCorre()+"\nA raça do cachorro é: "+raca+
 				"\nA cor da pelagem é: "+cor+"\nO cachorro é de porte: "+porte);
 	}
-
+	public void som() {
+		System.out.println("\nO som do cachorro é au au au au au...");
+	}
 	public String getRaca() {
 		return raca;
 	}

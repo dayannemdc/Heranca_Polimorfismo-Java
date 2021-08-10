@@ -15,6 +15,9 @@ public class Cavalo extends Animal {
 		System.out.println("\nAnimal: "+getNome()+"\nIdade: "+getIdade()+"\nEmite som? "+isEmiteSom()+"\nCorre? "+isCorre()+"\nO peso do caval é: "+peso+
 				"\nA atividade que pratica é: "+atividade+"O cavalo participa de competições? "+compete);
 	}
+	public void som() {
+		System.out.println("\nO som do cavalo é irrii irrii...");
+	}
 	public int getPeso() {
 		return peso;
 	}

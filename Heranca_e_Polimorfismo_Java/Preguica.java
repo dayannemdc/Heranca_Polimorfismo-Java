@@ -14,4 +14,8 @@ public class Preguica extends Animal{
 		System.out.println("\nAnimal: "+getNome()+"\nIdade: "+getIdade()+"\nEmite som: "+isEmiteSom()+
 				"\nA atividade da preguiça é: "+atividade+"\nO local onde vive é: "+local);
 	}
+	
+	public void som() {
+		System.out.println("\nO som da preguiça é desconhecido...");
+	}
 }
